@@ -3,6 +3,7 @@ venv/
 env/
 ENV/
 .venv
+*.virtualenv
 
 # Python
 __pycache__/
@@ -10,26 +11,29 @@ __pycache__/
 *$py.class
 *.so
 .Python
+*.pyo
+*.pyd
 
-# Arquivos de saída
+# Arquivos de saída gerados
 dados_saida.csv
 dados_saida.parquet
-*.csv
-*.parquet
 
-# IDEs
+# IDEs e Editores
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+.kiro/
 
 # Sistema Operacional
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
 
 # Logs
 *.log
@@ -38,3 +42,22 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+*.egg
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+~*
+
+# Dados sensíveis
+.env
+.env.local
+*.key
+*.pem
