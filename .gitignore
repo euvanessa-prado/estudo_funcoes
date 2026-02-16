@@ -1,0 +1,40 @@
+# Ambiente Virtual
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Arquivos de saída
+dados_saida.csv
+dados_saida.parquet
+*.csv
+*.parquet
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Distribuição / Empacotamento
+build/
+dist/
+*.egg-info/
