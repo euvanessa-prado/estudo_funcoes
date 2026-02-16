@@ -1,0 +1,11 @@
+produto,price,entregue
+Notebook,2500.00,True
+Mouse,45.50,True
+Teclado,150.00,False
+Monitor,800.00,True
+Webcam,200.00,True
+Headset,120.00,False
+SSD 500GB,350.00,True
+Memória RAM,280.00,True
+Cadeira Gamer,950.00,False
+Mesa,450.00,True
